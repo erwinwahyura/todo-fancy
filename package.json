@@ -1,0 +1,24 @@
+{
+  "name": "todo-fancy",
+  "version": "1.0.0",
+  "description": "create todo apps with auth",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwinwahyura/todo-fancy.git"
+  },
+  "author": "erwinwahyura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwinwahyura/todo-fancy/issues"
+  },
+  "homepage": "https://github.com/erwinwahyura/todo-fancy#readme"
+}
