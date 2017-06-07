@@ -2,10 +2,12 @@
   "name": "todo-fancy",
   "version": "1.0.0",
   "description": "create todo apps with auth",
-  "main": "app.js",
+  "start": "app.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mongoose": "^4.10.4"
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.11.0"
   },
   "devDependencies": {},
   "scripts": {

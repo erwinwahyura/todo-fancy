@@ -9,10 +9,10 @@ router.get('/', function(req, res ) {
 
 //routing here
 router.get('/api/todos', todo_controller.getAll)
-router.get('/api/todos/:id', todo_controller.getById)
+router.get('/api/todos/:_id', todo_controller.getById)
 router.post('/api/todos', todo_controller.create)
-router.put('/api/todos/:id', todo_controller.updates)
-router.delete('/api/todos/:id', todo_controller.remove)
+router.put('/api/todos/:_id', todo_controller.updates)
+router.delete('/api/todos/:_id', todo_controller.remove)
 
 
 
